@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* The navbar gradient style for all pages Start Here */
+.navig-bar{
+    
+    background: linear-gradient(to right, #159957, #155799);
+    background-size: 300% 300%;
+    animation: gradient 12s ease infinite;
+}
+@keyframes gradient{    
+    0%{
+      background-position: 0%;
+    }
+    50%{
+      background-position: 100%;
+    }
+    100%{
+      background-position:0%;
+    }
+  }
+  /* The navbar gradient style for all pages Start Here */
+
+  /* Navlink is for the page links in navbar */
+  .nav-link{
+    color: white!important;
+}
+ /* navbar-toggler-icon is for strokes of hamburger toggle icon */
+ .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(2, 65, 21, 0.63)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* the below navbar-toggler sets the color of border and bg of hamburger icon */
+.navbar-toggler{
+  border:1px solid rgba(4, 3, 53, 0.527);
+  background-color: lightgray;
+} 
