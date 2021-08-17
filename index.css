@@ -180,6 +180,20 @@
       background-size: cover;
       background-repeat: no-repeat;
    }
+
+   .ernak-pic{
+    margin-top: 20px;
+    background-image: url(./Images/ernakulam2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .thriss-pic{
+  margin-top: 20px;
+  background-image: url(./Images/Thrissur2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
   .alp-dimension{
     width: 400px;
     height: 300px;
