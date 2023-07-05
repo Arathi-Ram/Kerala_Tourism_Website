@@ -8,5 +8,5 @@ This was an academic assignment for ICTAK. The Kerala Tourism website allows use
 - Form  validation for the login and sign-up page is done using JavaScript (eg: email, phone and password validation)
 - Password image strength meter is also implemented
 
-> The project can be accessed at: https://arathi-ram.github.io/arathi_ICT_Kerala_Tourism_Website_Assignment-1/
+> The project can be accessed at: https://arathi-ram.github.io/Kerala_Tourism_Website/
 
