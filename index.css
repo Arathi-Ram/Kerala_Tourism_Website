@@ -351,6 +351,13 @@
     width: 400px;
     height: 300px;
   }
+
+   /* Landing Page Carousel Height Change: */
+   .carousel-item{
+    height: 510px;
+  }
+
+  
 /* .distr-tab,.distr-link,active{
   background-color: #155799;
   color: white;
