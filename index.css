@@ -5,9 +5,9 @@
 /* The navbar gradient style for all pages Start Here */
 .navig-bar{
     
-    background: linear-gradient(to right, #159957, #155799);
+    background: linear-gradient(to right, #098f4e, #1d5e9f);
     background-size: 300% 300%;
-    animation: gradient 12s ease infinite;
+    animation: gradient 7s ease infinite;
 }
 @keyframes gradient{    
     0%{
@@ -68,14 +68,14 @@
   /* Login-Form End Here */
 
 /* distr-card & shadow is for 14-district card on districs page */
-.distr-card:hover{
+/* .distr-card:hover{
   opacity: 0.9;
   color: black !important;
-}
+} */
 .shadow{
-  background:linear-gradient(0deg,#000,#6b0303);
+  background:linear-gradient(110deg,#8fa0ee,#c8f5d1);
 }
-.shadow::before,
+/* .shadow::before,
 .shadow::after{
   content: "";
   position: absolute;
@@ -102,7 +102,7 @@
   100% {
       background-position: 0 0;
   }
-}
+} */
 /* End of District Page */
 
 /* Sign Up Page Start Here*/

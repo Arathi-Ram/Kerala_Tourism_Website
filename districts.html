@@ -1,220 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./Images/fav.jpg" type="image/jpg">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/2b27a57f1c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
-    <title> Explore Districts </title>
-</head>
-<body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./Images/fav.jpg" type="image/jpg" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2b27a57f1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Explore Districts</title>
+  </head>
+  <body>
     <!-- Navbar Starts Here -->
     <div class="header">
-        <div class="navig-bar">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="#"><img src="./Images/logo.jpg" width=85 height="70" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                          <li class="nav-item">
-                            <a class="nav-link header-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link header-link active" href="#">Explore Kerala</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link header-link" href="./login.html"> Login </a>
-                            </li>
-                          <li class="nav-item">
-                            <a class="nav-link header-link " href="#">Contact Us</a>
-                          </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                      </div>
-                </div>
-              </nav>
-        </div>
+      <div class="navig-bar">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="./Images/logo.jpg" width="85" height="70" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link header-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-link active" href="#"
+                    >Explore Kerala <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-link" href="./login.html">
+                    Login
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
     <!-- Navbar Ends Here -->
 
     <!--Explore Kerala Section Starts Here -->
-    <section class="bg-dark text-info p-5  text-sm-start">
-        <div class="container">
-            <div class="d-lg-flex justify-content-between">
-                <div>
-                    <h1>Explore Kerala, God's Own Country</h1>
-                    <p class="lead my-4 p-4">Kerala is a state on the Malabar Coast of India. Kerala is the 21st largest Indian state by area. 
-                        It is divided into 14 districts with the capital being Thiruvananthapuram.</p>
-                    <a href="#districts" class="btn btn-outline-success btn-md">Explore Districts</a>
-                    
-                </div>
-                <img class="img-fluid w-50 d-none d-md-block"src="./Images/kerala.jpg" alt="Kerala">
-            </div>
+    <section class="text-info py-5 text-center">
+      <div class="container">
+        <div class="d-lg-flex justify-content-between">
+          <div>
+            <h1>Explore Kerala, God's Own Country</h1>
+            <p class="lead my-4 p-4">
+              Kerala is a state on the Malabar Coast of India. Kerala is the
+              21st largest Indian state by area. It is divided into 14 districts
+              with the capital being Thiruvananthapuram.
+            </p>
+            <a href="#districts" class="btn btn-outline-success btn-md"
+              >Explore Districts</a
+            >
+          </div>
+          <img
+            class="img-fluid w-75 d-none d-md-block m-3"
+            src="./Images/kerala.jpg"
+            alt="Kerala"
+          />
         </div>
+      </div>
     </section>
     <!--Explore Kerala Section Ends Here -->
 
     <!-- 14 districts cards start here -->
-    <section id="districts" class="p-5">
+    <main id="districts">
+      <div class="album py-5 bg-light">
         <div class="container">
-         <div class="row">
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/trivandrum.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Thiruvananthapuram</h5>
-                       
-                       <a href="./Trivandrum.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/kollam.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Kollam</h5>
-                       
-                       <a href="./Kollam.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/alaphuzha.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Alappuzha</h5>
-                       
-                       <a href="./alappuzha.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/pathanamthitta1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Pathanamthitta</h5>
-                       
-                       <a href="./Pathanamthitta.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/kottayam1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Kottayam</h5>
-                       
-                       <a href="./Kottayam.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/idukki1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Idukki</h5>
-                       
-                       <a href="./idukki.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/ernakulam1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Ernakulam</h5>
-                       
-                       <a href="./ernakulam.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/Thrissur1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Thrissur</h5>
-                       
-                       <a href="./Thrissur.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/Palakkad1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Palakkad</h5>
-                       
-                       <a href="./palakkad.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/malappuram1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Malappuram</h5>
-                       
-                       <a href="./malappuram.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/kozhikode1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Kozhikode</h5>
-                       
-                       <a href="./kozhikode.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/wayanad1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Wayanad</h5>
-                       
-                       <a href="./wayanad.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/kannur1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Kannur</h5>
-                       
-                       <a href="./kannur.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-             <div class="col-sm-3">
-                 <div class="card shadow distr-card text-white" style="width: 18rem;">
-                     <img class="card-img-top" src="./Images/kasargod1.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title"> Kasargod</h5>
-                       
-                       <a href="./kasargod.html" class="btn btn-dark btn-sm"> Find Out More</a>
-                     </div>
-                   </div>
-             </div>
-         </div>
+          <div class="row row-cols-4 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/trivandrum.jpg"
+                  alt="Thiruvananthapuram"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Thiruvananthapuram</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./Trivandrum.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/kollam.jpg"
+                  alt="Kollam"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kollam</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./Kollam.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/alaphuzha.jpg"
+                  alt="Alappuzha"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Alappuzha</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./alappuzha.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/pathanamthitta1.jpg"
+                  alt="Pathanamthitta"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pathanamthitta</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./Pathanamthitta.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/kottayam1.jpg"
+                  alt="Kottayam"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kottayam</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./Kottayam.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/idukki1.jpg"
+                  alt="Idukki"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Idukki</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./idukki.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/ernakulam1.jpg"
+                  alt="Ernakulam"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ernakulam</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./ernakulam.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/Thrissur1.jpg"
+                  alt="Thrissur"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Thrissur</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./Thrissur.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/Palakkad1.jpg"
+                  alt="Palakkad"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Palakkad</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./palakkad.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/malappuram1.jpg"
+                  alt="Malappuram"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Malappuram</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./malappuram.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/kozhikode1.jpg"
+                  alt="Kozhikode"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kozhikode</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./kozhikode.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/wayanad1.jpg"
+                  alt="Wayanad"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Wayanad</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./wayanad.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/kannur1.jpg"
+                  alt="Kannur"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kannur</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./kannur.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="card shadow-sm shadow">
+                <img
+                  class="card-img-top"
+                  width="100%"
+                  height="225"
+                  src="./Images/kasargod1.jpg"
+                  alt="Kasargod"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kasargod</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group mx-auto">
+                      <a
+                        href="./kasargod.html"
+                        class="btn btn-sm btn-outline-info"
+                      >
+                        View District</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-     </section>
-     <!-- 14 district Cards End Here -->
+      </div>
+    </main>
 
-     <!-- Footer Starts Here -->
+    <!-- 14 district Cards End Here -->
+
+    <!-- Footer Starts Here -->
     <footer class=" mt-5 p-2 bg-dark text-white text-center position-relative">
       <div class="container">
         <p class="lead">Copyright &copy; 2021 Kerala Tourism</p>
@@ -223,7 +501,6 @@
         </a> -->
       </div>
    </footer>
-   <!-- Footer Ends Here -->
- 
-</body>
+    <!-- Footer Ends Here -->
+  </body>
 </html>
