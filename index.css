@@ -294,26 +294,33 @@
 }
 .alapey-pic{
   margin-top: 20px;
-  background-image: url(./Images/alaphuzha2.jpg);
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/alaphuzha2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   }
 .pathan-pic{
     margin-top: 20px;
-    background-image: url(./Images/pathanamthitta2.jpg);
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/pathanamthitta2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
  }
-.pathan-pic{
+.kottayam-pic{
       margin-top: 20px;
-      background-image: url(./Images/kottayam2.jpg);
+      background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/kottayam2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
 }
 
-   .ernak-pic{
+.idukki-pic{
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/idukki2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ernak-pic{
     margin-top: 20px;
-    background-image: url(./Images/ernakulam2.jpg);
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/ernakulam2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
  }
