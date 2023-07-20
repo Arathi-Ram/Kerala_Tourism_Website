@@ -1,80 +1,93 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-/* The navbar gradient style for all pages Start Here */
-.navig-bar{
-    
-    background: linear-gradient(to right, #098f4e, #1d5e9f);
-    background-size: 300% 300%;
-    animation: gradient 7s ease infinite;
-}
-@keyframes gradient{    
-    0%{
-      background-position: 0%;
-    }
-    50%{
-      background-position: 100%;
-    }
-    100%{
-      background-position:0%;
-    }
-  }
-  /* The navbar gradient style for all pages Start Here */
 
-  /* Navlink is for the page links in navbar */
-  .header-link{
-    color: white!important;
+/* The navbar gradient style for all pages Start Here */
+.navig-bar {
+
+  background: linear-gradient(to right, #098f4e, #1d5e9f);
+  background-size: 300% 300%;
+  animation: gradient 7s ease infinite;
 }
- /* navbar-toggler-icon is for strokes of hamburger toggle icon */
- .navbar-toggler-icon {
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}
+
+/* The navbar gradient style for all pages Start Here */
+
+/* Navlink is for the page links in navbar */
+.header-link {
+  color: white !important;
+}
+
+/* navbar-toggler-icon is for strokes of hamburger toggle icon */
+.navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(2, 65, 21, 0.63)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 /* the below navbar-toggler sets the color of border and bg of hamburger icon */
-.navbar-toggler{
-  border:1px solid rgba(4, 3, 53, 0.527);
+.navbar-toggler {
+  border: 1px solid rgba(4, 3, 53, 0.527);
   background-color: lightgray;
-} 
-  /* Login-Form css Start */
-  .login-body{
-    background-image: url(./Images/Kerala.jpeg) ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    
-  }
-  .form{
-    opacity: 0.8;
-  }
-  
-  .form{
-    width: 30%;
-    padding: 5px;
-    margin-top: 8%;
-    margin-left: 31%;
-  }
-  .login-form{
-    margin: 10%;
-    color:lemonchiffon;
-  }
-  .log-button{
-    padding: 10px ;
-  }
-  
-  .log-button a{
-    padding: 30px;
-    
-  }
-  /* Login-Form End Here */
+}
+
+/* Login-Form css Start */
+.login-body {
+  background-image: url(./Images/Kerala.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.form {
+  opacity: 0.8;
+}
+
+.form {
+  width: 30%;
+  padding: 5px;
+  margin-top: 8%;
+  margin-left: 31%;
+}
+
+.login-form {
+  margin: 10%;
+  color: lemonchiffon;
+}
+
+.log-button {
+  padding: 10px;
+}
+
+.log-button a {
+  padding: 30px;
+
+}
+
+/* Login-Form End Here */
 
 /* distr-card & shadow is for 14-district card on districs page */
 /* .distr-card:hover{
   opacity: 0.9;
   color: black !important;
 } */
-.shadow{
-  background:linear-gradient(110deg,#8fa0ee,#c8f5d1);
+.shadow {
+  background: linear-gradient(110deg, #8fa0ee, #c8f5d1);
 }
+
 /* .shadow::before,
 .shadow::after{
   content: "";
@@ -106,154 +119,172 @@
 /* End of District Page */
 
 /* Sign Up Page Start Here*/
-.ui{
-  
+.ui {
+
   border-radius: 30px;
   background: rgba(4, 3, 53, 0.733);
   box-shadow: #8a8f8d17;
-  color: lavenderblush !important; ;
+  color: lavenderblush !important;
+  ;
 
 }
 
-.signup-body{
+.signup-body {
   background-image: url(./Images/IMG_0647.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
-    /* Sign Up Form Validation start Here */
-  
-    .signUp-form-control{
-      margin-bottom: 25px;
-      padding-bottom: 30px;
-      position: relative;
-      padding: 15px 20px 15px 20px
-      /* display:flex; */
-    }
+/* Sign Up Form Validation start Here */
 
-    .signUp-form-control label{
-      display: inline-block;
-      margin-bottom: 5px;
-    }
+.signUp-form-control {
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+  position: relative;
+  padding: 15px 20px 15px 20px
+    /* display:flex; */
+}
 
-    .signUp-form-control input{
-      display: block;
-      padding: 10px;
-      border-radius: 4px;
-      border:2px solid #d8d1d1;
-    }
-    
+.signUp-form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
 
-    .signUp-form-control small{
-      position: absolute;
-      margin: 3px;
-      visibility: hidden;
-    }
+.signUp-form-control input {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid #d8d1d1;
+}
 
-    .valid-icon{
-      position: absolute;
-      top: 55px;
-      right: 25px;
-      visibility: hidden;
-    }
-    .valid-icon-2{
-      position: absolute;
-      top: 55px;
-      right:25px;
-      visibility: hidden;
-    }
 
-    .password-toggle{
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      top: 54px;
-      right: 35px;
-      color: black;
-      cursor: pointer;
-      text-align: center;
-      line-height: 20px;
-    }
-    .password-toggle-two{
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      top: 54px;
-      right: 35px;
-      color: black;
-      cursor: pointer;
-      text-align: center;
-      line-height: 20px;
-    }
-    .progress{
-      height: 3px !important;
-    }
-    .progress-bar-danger{
-      background-color: #e90f10;
-    }
-    .progress-bar-warning{
-      background-color: #ffad00;
-    }
-    .progress-bar-success{
-      background-color: #02b502;
-    }
-    .fa-circle{
-      font-size: 6px;
-    }
-    .fa-check{
-      color: #02b502;
-    }
-   
-    .signUp-form .signUp-form-control .password-toggle.active i.fa-eye{
-      display: none;
-    }
-    .signUp-form .signUp-form-control .password-toggle-two.active i.fa-eye{
-      display: none;
-    }
-    .signUp-form .signUp-form-control .password-toggle.active i.fa-eye-slash{
-      display: inline;
-    }
-    .signUp-form .signUp-form-control .password-toggle-two.active i.fa-eye-slash{
-      display: inline;
-    }
-    .signUp-form .signUp-form-control .password-toggle i.fa-eye-slash{
-      display: none;
-    }
-    .signUp-form .signUp-form-control .password-toggle-two i.fa-eye-slash{
-      display: none;
-    }
-    /* Sign Up Form Validation end Here */
+.signUp-form-control small {
+  position: absolute;
+  margin: 3px;
+  visibility: hidden;
+}
 
-    /* Validation error & success class CSS START */
-      .signUp-form-control.error input{
-        border-color: #dd1d07c4;
-        
-      }
-      .signUp-form-control.error i.fa-exclamation-circle{
-        visibility: visible;
-        color:#e74c3c;
-      }
-      .signUp-form-control.error small{
-        visibility: visible;
-        color:#f34936ef;
-      }
+.valid-icon {
+  position: absolute;
+  top: 55px;
+  right: 25px;
+  visibility: hidden;
+}
 
-      .signUp-form-control.success input{
-        border-color: #2ecc71;
-      }
+.valid-icon-2 {
+  position: absolute;
+  top: 55px;
+  right: 25px;
+  visibility: hidden;
+}
 
-      .signUp-form-control.success i.fa-check-circle{
-        visibility: visible;
-        color: #2ecc71;
-      }
-    /* Validation error & success class CSS START */
+.password-toggle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 54px;
+  right: 35px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+}
+
+.password-toggle-two {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 54px;
+  right: 35px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+}
+
+.progress {
+  height: 3px !important;
+}
+
+.progress-bar-danger {
+  background-color: #e90f10;
+}
+
+.progress-bar-warning {
+  background-color: #ffad00;
+}
+
+.progress-bar-success {
+  background-color: #02b502;
+}
+
+.fa-circle {
+  font-size: 6px;
+}
+
+.fa-check {
+  color: #02b502;
+}
+
+.signUp-form .signUp-form-control .password-toggle.active i.fa-eye {
+  display: none;
+}
+
+.signUp-form .signUp-form-control .password-toggle-two.active i.fa-eye {
+  display: none;
+}
+
+.signUp-form .signUp-form-control .password-toggle.active i.fa-eye-slash {
+  display: inline;
+}
+
+.signUp-form .signUp-form-control .password-toggle-two.active i.fa-eye-slash {
+  display: inline;
+}
+
+.signUp-form .signUp-form-control .password-toggle i.fa-eye-slash {
+  display: none;
+}
+
+.signUp-form .signUp-form-control .password-toggle-two i.fa-eye-slash {
+  display: none;
+}
+
+/* Sign Up Form Validation end Here */
+
+/* Validation error & success class CSS START */
+.signUp-form-control.error input {
+  border-color: #dd1d07c4;
+
+}
+
+.signUp-form-control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.signUp-form-control.error small {
+  visibility: visible;
+  color: #f34936ef;
+}
+
+.signUp-form-control.success input {
+  border-color: #2ecc71;
+}
+
+.signUp-form-control.success i.fa-check-circle {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+/* Validation error & success class CSS START */
 
 
 
 /* Sign Up Page Styles End Here*/
 
 /*  Home Page  */
-.carousel-item::before{
+.carousel-item::before {
   content: "";
   display: block;
   position: absolute;
@@ -264,7 +295,8 @@
   background: #0000;
   opacity: 0.6;
 }
-.carousel-item{
+
+.carousel-item {
   height: 100vh;
   min-height: 300px;
   background: no-repeat scroll center scroll;
@@ -276,95 +308,110 @@
 
 /* Home Page End */
 /* District Page */
-.jumbotron{
+.jumbotron {
   margin-top: 20px;
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/triv.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/triv.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.dimension{
+
+.dimension {
   width: 500px;
   height: 300px;
 }
-.kollam-pic{
-  margin-top: 20px;
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/kollam2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.alapey-pic{
-  margin-top: 20px;
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/alaphuzha2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  }
-.pathan-pic{
-    margin-top: 20px;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/pathanamthitta2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
- }
-.kottayam-pic{
-      margin-top: 20px;
-      background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/kottayam2.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-}
 
-.idukki-pic{
+.kollam-pic {
   margin-top: 20px;
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/idukki2.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/kollam2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.ernak-pic{
-    margin-top: 20px;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url(./Images/ernakulam2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
- }
-   .thriss-pic{
+.alapey-pic {
   margin-top: 20px;
-  background-image: url(./Images/Thrissur2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
- }
-  .palak-pic{
-  margin-top: 20px;
-  background-image: url(./Images/palakkad2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
- }
-  .malap-pic{
-  margin-top: 20px;
-  background-image: url(./Images/malappuram2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  }
-.kozhi-pic{
-  margin-top: 20px;
-  background-image: url(./Images/kozhikode2.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/alaphuzha2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.pathan-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/pathanamthitta2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  .alp-dimension{
-    width: 400px;
-    height: 300px;
-  }
-  .iduk-dimension{
-    width: 400px;
-    height: 300px;
-  }
+.kottayam-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/kottayam2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-   /* Landing Page Carousel Height Change: */
-   .carousel-item{
-    height: 510px;
-  }
+.idukki-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/idukki2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  
+.ernak-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/ernakulam2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thriss-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/Thrissur2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.palak-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/palakkad2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.malap-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/malappuram2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kozhi-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/kozhikode2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wayanad-pic {
+  margin-top: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%), url(./Images/wayanad-pic.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.alp-dimension {
+  width: 400px;
+  height: 300px;
+}
+
+.iduk-dimension {
+  width: 400px;
+  height: 300px;
+}
+
+/* Landing Page Carousel Height Change: */
+.carousel-item {
+  height: 510px;
+}
+
+
 /* .distr-tab,.distr-link,active{
   background-color: #155799;
   color: white;
