@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./Images/fav.jpg" type="image/jpg">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2b27a57f1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title> Kasargod </title>
+</head>
+<body>
+    <!-- Navbar Starts Here -->
+    <div class="header">
+        <div class="navig-bar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="./Images/logo.jpg" width=85 height="70" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                            <a class="nav-link header-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link header-link" href="./districts.html">Explore Districts</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link header-link" href="./login.html"> Login </a>
+                            </li>
+                          <li class="nav-item">
+                            <a class="nav-link header-link " href="#">Contact Us</a>
+                          </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                      </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!-- Navbar Ends Here -->
+
+    <!-- JUMBOTRON FOR DISTRICT PICTURE START HERE -->
+    <div class="container">
+      <div class="jumbotron kasargod-pic">
+         <h1 class="display-4 text-light"> Kasargod </h1>
+          <hr class="my-5">
+         <h2 class="lead text-info text-left font-weight-bold font-italic"> - " land of gods, forts, rivers, hills and beautiful beaches"</h2>
+      </div>
+        
+    </div>
+    
+    <!-- JUMBOTRON FOR DISTRICT PICTURE END HERE -->
+
+    <!-- DISTRICT INFO & HOT SPOTS NAV TABS & CARD START-->
+      <div class="container bg-light">
+        <nav>
+          <ul class="nav nav-tabs" id="nav-Tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true">About</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="hotspots-tab" data-bs-toggle="tab" data-bs-target="#hotspots" type="button" role="tab" aria-controls="hotspots" aria-selected="false">Famous Spots</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+              <div class="row border g-0 rounded shadow-sm">
+                <div class="col p-4">
+                  <h3>About Kasargod</h3>
+                  <p>
+                    The northernmost district of Kerala, Kasaragod is renowned for its hills, forts and water bodies. The coir and handloom industry here are extremely famous around the world. The place is also popular for its ancient temples and rich biodiversity. It is an important border district as well that regulates trade with a lot of neighbouring States.
+                  </p>
+                    <p>
+                        Legends regarding the district greet you at every turn on a visit here. A trip here is incomplete without visiting Bekal Fort, the most majestic and well maintained fort in South India.
+                    </p>
+                </div>
+                <div class="col-auto">
+                  <img src="./Images/Kasaragod-map.gif" alt="Map Of Kasargod" class="img-thumbnail alp-dimension">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="hotspots" role="tabpanel" aria-labelledby="hotspots-tab">
+              <div class="container">
+                <div class="card-deck">
+                    <div class="card m-3">
+                        <img class="card-img-top" src="./Images/kasargod_spot_2.jpeg" alt="Bekal Fort">
+                        <div class="card-body">
+                          <h5 class="card-title">Bekal Fort</h5>
+                          <p class="card-text">The largest fort in Kerala, Bekal Fort, is situated on 40 acres of land in the Kasaragod district. This 300-year-old fort narrates tales of military expeditions, the history of Malabar and much more. Built by the rulers of the ancient Kadampa dynasty, the fort changed hands over the years to the Kolathiri Rajas, the Vijayanagar Empire, Tipu Sultan and finally, the British East India Company.</p>
+                          <p class="card-text">The water tank with its flight of steps, the tunnel opening towards the south, the magazine for keeping ammunition and the broad and wide steps leading to the Observation Tower are some unique features of Bekal Fort. </p>
+                        </div>
+                      </div>
+                    <div class="card m-3">
+                        <img class="card-img-top" src="./Images/kasargod_spot_1.jpeg" alt="Bekal Fort Beach">
+                        <div class="card-body">
+                        <h5 class="card-title"> Bekal Fort Beach</h5>
+                        <p>It is among the biggest forts in Kerala and has been impeccably maintained throughout the years. It rises to 130 feet above sea level and is situated on a headland spanning 35km. Much effort has been put to develop a beautiful beach here called the Bekal Fort Beach.</p>
+                        <p class="card-text">Situated comfortably on steep hills by the sea, the fort provides for an imposing view from the beach. Built using laterite slabs and with a polygonal shape, it is amongst the most visited sites in Kerala.</p>
+                        </div>
+                    </div>
+                  <div class="card m-3">
+                    <img class="card-img-top" src="./Images/kasargod_spot_3.jpeg" alt="Anandashram ">
+                    <div class="card-body">
+                      <h5 class="card-title">Anandashram </h5>
+                      <p class="card-text">Kanhangad in Kasaragod district is home to a site where all human beings are welcome to seek peace and salvation. Religious denominations or caste do not matter at the beautiful Anandashram. Formed in 1931 by Swami Ramdas, this internationally renowned spiritual centre has provided solace to all who have reached its doorstep for close to a century.</p>
+                      <p class="card-text">The Swami preached universal love and service and to this day, the Ashram is a shining beacon spreading this message through its activities and involvement in the local community</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </nav>
+      </div>
+    <!-- DISTRICT INFO & HOT SPOTS NAV TABS & CARD END-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+             <!-- Footer Starts Here -->
+             <footer class=" mt-5 p-2 bg-dark text-white text-center position-relative">
+              <div class="container">
+                <p class="lead">Copyright &copy; 2021 Kerala Tourism</p>
+                <!-- <a href="#" class="position-absolute bottom-0 end-0">
+                   <i class="bi bi-arrow-up-circle h1"></i>
+                </a> -->
+              </div>
+           </footer>
+            <!-- Footer Ends Here -->
+</body>
+</html>
