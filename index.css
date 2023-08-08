@@ -138,10 +138,10 @@
 /* Sign Up Form Validation start Here */
 
 .signUp-form-control {
-  margin-bottom: 25px;
-  padding-bottom: 30px;
+  /* margin-bottom: 25px; */
+  /* padding-bottom: 30px; */
   position: relative;
-  padding: 15px 20px 15px 20px
+  padding: 11px 18px 11px 18px
     /* display:flex; */
 }
 
@@ -152,7 +152,7 @@
 
 .signUp-form-control input {
   display: block;
-  padding: 10px;
+  padding: 5px;
   border-radius: 4px;
   border: 2px solid #d8d1d1;
 }
@@ -183,7 +183,7 @@
   width: 40px;
   height: 40px;
   top: 54px;
-  right: 35px;
+  right: 40px;
   color: black;
   cursor: pointer;
   text-align: center;
