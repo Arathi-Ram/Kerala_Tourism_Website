@@ -2,11 +2,10 @@
   margin: 0px;
   padding: 0px;
 }
-
+/* NAVBAR---------------------------------------------------------- */
 /* The navbar gradient style for all pages Start Here */
 .navig-bar {
-
-  background: linear-gradient(to right, #098f4e, #1d5e9f);
+  background: linear-gradient(to right, #159957, #155799);
   background-size: 300% 300%;
   animation: gradient 7s ease infinite;
 }
@@ -43,47 +42,73 @@
   background-color: lightgray;
 }
 
-/* Login-Form css Start */
+/* LOGIN PAGE ---------------------------------------------------------- */
+
 .login-body {
   background-image: url(./Images/Kerala.jpeg);
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 
 }
-
-.form {
+.loginForm {
   opacity: 0.8;
+  border-radius: 30px;
+  margin-left: 30%;
+  background: rgba(4, 3, 53, 0.733);
+  box-shadow: #8a8f8d17;
+  color: #aad8d3f9;
 }
 
-.form {
-  width: 30%;
-  padding: 5px;
-  margin-top: 8%;
-  margin-left: 31%;
-}
-
-.login-form {
-  margin: 10%;
-  color: lemonchiffon;
-}
-
-.log-button {
-  padding: 10px;
-}
-
-.log-button a {
-  padding: 30px;
+/* .form control for login is below */
+.login-form-control{
+  position: relative;
+  padding: 11px 18px 11px 18px
 
 }
+.login-form-control label{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.login-form-control input{
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    border:3px solid #96873e;
+}
+.login-form-control small{
+  /* position: absolute; */
+  margin: 3px;
+  visibility: hidden; 
+  
+}
+.valid-icon{
+  position: absolute;
+  visibility: hidden; 
+}
 
+/* validation error and success class css start */
+.login-form-control.success input{
+    border-color: #2ecc71;
+}
+.login-form-control.error input{
+  border-color: #801105c4;
+}
+.login-form-control.success i.fa-check-circle{
+  visibility: visible;
+  color: #2ecc71;
+}
+.login-form-control.error i.fa-exclamation-circle{
+  visibility: visible;
+  color:#e74c3c;
+}
+.login-form-control.error small{
+  visibility: visible;
+  color:#e74c3c;
+}
+/* validation error and success class css end */
 /* Login-Form End Here */
 
-/* distr-card & shadow is for 14-district card on districs page */
-/* .distr-card:hover{
-  opacity: 0.9;
-  color: black !important;
-} */
+/* ALL DISTRICTS PAGE ----------------------------------------------------------- */
 .shadow {
   background: linear-gradient(110deg, #8fa0ee, #c8f5d1);
 }
@@ -118,14 +143,13 @@
 } */
 /* End of District Page */
 
-/* Sign Up Page Start Here*/
+/* SIGNUP PAGE----------------------------------------------------*/
 .ui {
 
   border-radius: 30px;
   background: rgba(4, 3, 53, 0.733);
   box-shadow: #8a8f8d17;
   color: lavenderblush !important;
-  ;
 
 }
 
